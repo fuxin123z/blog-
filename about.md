@@ -3,7 +3,7 @@ layout: page
 title: 关于我 
 ---
 
-教师，喜欢研究。
+特长：喜欢研究。
 <p>
 平时喜欢逛逛技术论坛。
 <p>
@@ -11,7 +11,7 @@ title: 关于我
 
 <p>
 
-<h2> blog </h2>  
+<h3> blog </h3>  
 
 <p>
 
@@ -19,7 +19,7 @@ title: 关于我
 
 <p>
 
-可以看我的 
+可以看我的
 
 教程
 
@@ -40,7 +40,7 @@ title: 关于我
 email：444216502@qq.com      
 
 <p> 
-sina: weibo.com/fuxin123zz
+新浪地址: https://weibo.com/fuxin123zz
 <p> 
 相册地址：https://stoic-morse-f5865b.netlify.app
 <p> 
