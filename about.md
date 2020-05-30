@@ -44,7 +44,8 @@ sina: weibo.com/fuxin123zz
 <p> 
 相册地址：https://stoic-morse-f5865b.netlify.app
 <p> 
-如果有问题可以一起讨论.
+如果有问题可以一起讨论. 
+反馈地址：https://support.qq.com/product/162725
 <p> 
 
 
