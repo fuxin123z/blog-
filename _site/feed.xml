@@ -5,8 +5,8 @@
     <description>欢迎~</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Jun 2020 16:39:08 +0800</pubDate>
-    <lastBuildDate>Wed, 24 Jun 2020 16:39:08 +0800</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2020 17:07:00 +0800</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2020 17:07:00 +0800</lastBuildDate>
     <generator>Jekyll v4.0.1</generator>
     
       <item>
@@ -151,148 +151,1364 @@
       </item>
     
       <item>
-        <title>衡量可燃性液体火灾危险性大小的主要参数是（ ）。</title>
-        <description>&lt;p&gt;衡量可燃性液体火灾危险性大小的主要参数是（ ）。&lt;/p&gt;
+        <title>Markdown工具集</title>
+        <description>&lt;h3 id=&quot;什么是-markdown&quot;&gt;什么是 Markdown&lt;/h3&gt;
 
-&lt;p&gt;A.沸点&lt;/p&gt;
+&lt;p&gt;　　Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：如您正在阅读的这篇文章。它使用简单的符号标记不同的标题，分割不同的段落，&lt;strong&gt;粗体&lt;/strong&gt; 或者 &lt;em&gt;斜体&lt;/em&gt; 某些文字.&lt;/p&gt;
 
-&lt;p&gt;B.闪点&lt;/p&gt;
+&lt;p&gt;　　很多产品的文档也是用markdown编写的，并且以“README.MD”的文件名保存在软件的目录下面。             &lt;br /&gt;
+　　&lt;/p&gt;
 
-&lt;p&gt;C.燃点&lt;/p&gt;
+&lt;h3 id=&quot;一些基本语法&quot;&gt;一些基本语法&lt;/h3&gt;
 
-&lt;p&gt;正确答案：B&lt;/p&gt;
+&lt;p&gt;标题          &lt;br /&gt;
+H1 :# Header 1          &lt;br /&gt;
+H2 :## Header 2         &lt;br /&gt;
+H3 :### Header 3         &lt;br /&gt;
+H4 :#### Header 4         &lt;br /&gt;
+H5 :##### Header 5          &lt;br /&gt;
+H6 :###### Header 6    &lt;br /&gt;
+链接 :&lt;a href=&quot;URL&quot;&gt;Title&lt;/a&gt;      &lt;br /&gt;
+加粗 :&lt;strong&gt;Bold&lt;/strong&gt;      &lt;br /&gt;
+斜体字 :&lt;em&gt;Italics&lt;/em&gt;       &lt;br /&gt;
+&lt;em&gt;删除线 :&lt;del&gt;text&lt;/del&gt;        &lt;br /&gt;
+段落 : 段落之间空一行         &lt;br /&gt;
+换行符 : 一行结束时输入两个空格         &lt;br /&gt;
+列表 :&lt;/em&gt; 添加星号成为一个新的列表项。        &lt;br /&gt;
+引用 :&amp;gt; 引用内容             &lt;br /&gt;
+内嵌代码 : &lt;code class=&quot;highlighter-rouge&quot;&gt;alert('Hello World');&lt;/code&gt;      &lt;br /&gt;
+画水平线 (HR) :——–&lt;/p&gt;
+
+&lt;p&gt;css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样，下面这些链接里面有 markdown 基本语法，你也可以在下面几个平台上尝试着写一些。&lt;/p&gt;
+
+&lt;h3 id=&quot;一些好用的-markdown-编辑器&quot;&gt;一些好用的 Markdown 编辑器&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mahua.jser.me/?utm_source=mindstore.io&quot;&gt;MaHua&lt;/a&gt; 在线 Markdown 编辑器 ,无须测试。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/markdown/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://mdp.tylingsoft.com/&quot;&gt;Markdown Plus&lt;/a&gt; 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/markdown/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zybuluo.com/cmd/?utm_source=mindstore.io&quot;&gt;Cmd Markdown&lt;/a&gt; 作业部落在线 Markdown 编辑器推出桌面版客户端啦，全平台支援。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/markdown/image3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/MacDownApp/macdown&quot;&gt;Macdown&lt;/a&gt; Github 上开源的 Mac 平台上的 Markdown 编辑器&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/editor?utm_source=mindstore.io&quot;&gt;GitBook Editor&lt;/a&gt; 一款团队在线编辑文档工具。可以轻松书写笔记，支持团队协同编辑。同时支持 Markdown 语法，还保持了印象笔记的风格并可在线预览。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.glamdevelopment.com/outlinely?utm_source=mindstore.io&quot;&gt;Outlinely&lt;/a&gt; 界面简洁大方的大纲类 Mac 软件，使用起来很简单，而且支持输出 Markdown 格式。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://classeur.io/?utm_source=mindstore.io&quot;&gt;Classeur&lt;/a&gt; 实用简洁的 Markdown 写作工具，快速上手。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/geekcompany/DeerResume?utm_source=mindstore.io&quot;&gt;DeerResume&lt;/a&gt; 程序员专用 MarkDown 简历制作在线工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 </description>
-        <pubDate>Sat, 01 Jan 1222 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/1222/01/%E8%A1%A1%E9%87%8F%E5%8F%AF%E7%87%83%E6%80%A7%E6%B6%B2%E4%BD%93%E7%81%AB%E7%81%BE%E5%8D%B1%E9%99%A9%E6%80%A7%E5%A4%A7%E5%B0%8F%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8F%82%E6%95%B0%E6%98%AF/</link>
-        <guid isPermaLink="true">http://localhost:4000/1222/01/%E8%A1%A1%E9%87%8F%E5%8F%AF%E7%87%83%E6%80%A7%E6%B6%B2%E4%BD%93%E7%81%AB%E7%81%BE%E5%8D%B1%E9%99%A9%E6%80%A7%E5%A4%A7%E5%B0%8F%E7%9A%84%E4%B8%BB%E8%A6%81%E5%8F%82%E6%95%B0%E6%98%AF/</guid>
+        <pubDate>Mon, 20 Nov 1111 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/1111/11/markdownTool/</link>
+        <guid isPermaLink="true">http://localhost:4000/1111/11/markdownTool/</guid>
+        
+        <category>工具</category>
         
         
       </item>
     
       <item>
-        <title>当在户外遭遇雷电天气时</title>
-        <description>&lt;p&gt;当在户外遭遇雷电天气时，下列做法不正确的是（ac ）。&lt;/p&gt;
+        <title>百度网盘资源</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;VOA慢速英语 （失效）
+链接: https://pan.baidu.com/s/1r6lQrl9YJFBcnJYcYwzLKQ 提取码: kq3r
 
-&lt;p&gt;A.
-快向高处跑
-B.
-远离电线杆、烟囱
-C.
-躲到大树下暂避
-D.
-应尽量离开山丘、海滨、河边等地方&lt;/p&gt;
+VOA常速英语（失效）
+链接: https://pan.baidu.com/s/1xjiB63-O5XBwqKpjr0ww5g 提取码: 7ca8
+
+元旦公考（失效）
+链接: https://pan.baidu.com/s/1gNl1tVH9tvtSoH7mX_dqMg 提取码: ebck
+
+亚伟式中文速记教程
+链接: https://pan.baidu.com/s/1qMeR2HLClocnvgWVUECNew 提取码: v7cs
+
+小说/老人与海
+链接: https://pan.baidu.com/s/1_9DWoSaQniION7-YluRKdA 提取码: swdp
+
+我的资源/《零基础学photoshop，18节课从小白到大神》
+链接: https://pan.baidu.com/s/1mBuLdJwje6lXR4W0dxlONQ 提取码: a867
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Sat, 01 Jan 1222 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/1222/01/%E7%AD%94%E9%A2%98%E5%BA%93%E7%9A%84%E5%89%AF%E6%9C%AC5/</link>
-        <guid isPermaLink="true">http://localhost:4000/1222/01/%E7%AD%94%E9%A2%98%E5%BA%93%E7%9A%84%E5%89%AF%E6%9C%AC5/</guid>
+        <pubDate>Sat, 11 Nov 1111 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/1111/11/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E8%B5%84%E6%BA%90188/</link>
+        <guid isPermaLink="true">http://localhost:4000/1111/11/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E8%B5%84%E6%BA%90188/</guid>
+        
+        <category>资源</category>
         
         
       </item>
     
       <item>
-        <title>当在户外遭遇雷电天气时</title>
-        <description>&lt;p&gt;当在户外遭遇雷电天气时，下列做法不正确的是（ac ）。&lt;/p&gt;
+        <title>最全的vim快捷键</title>
+        <description>&lt;h1 id=&quot;最全的vim快捷键&quot;&gt;最全的vim快捷键&lt;/h1&gt;
 
-&lt;p&gt;A.
-快向高处跑
-B.
-远离电线杆、烟囱
-C.
-躲到大树下暂避
-D.
-应尽量离开山丘、海滨、河边等地方&lt;/p&gt;
+&lt;p&gt;龙啸九天520 2013-12-05 12:34:19  82789  收藏 40
+分类专栏： linux学习 文章标签： 最全的vim快捷键vim快捷键vim
+曾经使用了两年多的Vim，手册也翻过一遍。虽然现在不怎么用vim了，曾经的笔记还是贴出来，与喜欢vim的朋友分享。&lt;/p&gt;
+
+&lt;p&gt;索&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;关于Vim
+vim是我最喜欢的编辑器，也是linux下第二强大的编辑器。 虽然emacs是公认的世界第一，我认为使用emacs并没有使用vi进行编辑来得高效。 如果是初学vi，运行一下vimtutor是个聪明的决定。 （如果你的系统环境不是中文，而你想使用中文的vimtutor，就运行vimtutor zh）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;11-vim的几种模式&quot;&gt;1.1 Vim的几种模式&lt;/h1&gt;
+&lt;p&gt;正常模式：可以使用快捷键命令，或按:输入命令行。
+插入模式：可以输入文本，在正常模式下，按i、a、o等都可以进入插入模式。
+可视模式：正常模式下按v可以进入可视模式， 在可视模式下，移动光标可以选择文本。按V进入可视行模式， 总是整行整行的选中。ctrl+v进入可视块模式。
+替换模式：正常模式下，按R进入。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;启动Vim
+vim -c cmd file: 在打开文件前，先执行指定的命令；
+vim -r file: 恢复上次异常退出的文件；
+vim -R file: 以只读的方式打开文件，但可以强制保存；
+vim -M file: 以只读的方式打开文件，不可以强制保存；
+vim -y num file: 将编辑窗口的大小设为num行；
+vim + file: 从文件的末尾开始；
+vim +num file: 从第num行开始；
+vim +/string file: 打开file，并将光标停留在第一个找到的string上。
+vim –remote file: 用已有的vim进程打开指定的文件。 如果你不想启用多个vim会话，这个很有用。但要注意， 如果你用vim，会寻找名叫VIM的服务器；如果你已经有一个gvim在运行了， 你可以用gvim –remote file在已有的gvim中打开文件。&lt;/li&gt;
+  &lt;li&gt;文档操作
+:e file –关闭当前编辑的文件，并开启新的文件。 如果对当前文件的修改未保存，vi会警告。
+:e! file –放弃对当前文件的修改，编辑新的文件。
+:e+file – 开始新的文件，并从文件尾开始编辑。
+:e+n file – 开始新的文件，并从第n行开始编辑。
+:enew –编译一个未命名的新文档。(CTRL-W n)
+:e – 重新加载当前文档。
+:e! – 重新加载当前文档，并丢弃已做的改动。
+:e#或ctrl+^ – 回到刚才编辑的文件，很实用。
+:f或ctrl+g – 显示文档名，是否修改，和光标位置。
+:f filename – 改变编辑的文件名，这时再保存相当于另存为。
+gf – 打开以光标所在字符串为文件名的文件。
+:w – 保存修改。
+:n1,n2w filename – 选择性保存从某n1行到另n2行的内容。
+:wq – 保存并退出。
+ZZ – 保存并退出。
+:x – 保存并退出。
+:q[uit] ——退出当前窗口。(CTRL-W q或CTRL-W CTRL-Q)
+:saveas newfilename – 另存为
+:browse e – 会打开一个文件浏览器让你选择要编辑的文件。 如果是终端中，则会打开netrw的文件浏览窗口； 如果是gvim，则会打开一个图形界面的浏览窗口。 实际上:browse后可以跟任何编辑文档的命令，如sp等。 用browse打开的起始目录可以由browsedir来设置：
+:set browsedir=last – 用上次访问过的目录（默认）；
+:set browsedir=buffer – 用当前文件所在目录；
+:set browsedir=current – 用当前工作目录；
+:Sex – 水平分割一个窗口，浏览文件系统；
+:Vex – 垂直分割一个窗口，浏览文件系统；&lt;/li&gt;
+  &lt;li&gt;光标的移动
+4.1 基本移动
+以下移动都是在normal模式下。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;h或退格: 左移一个字符；
+l或空格: 右移一个字符；
+j: 下移一行；
+k: 上移一行；
+gj: 移动到一段内的下一行；
+gk: 移动到一段内的上一行；
++或Enter: 把光标移至下一行第一个非空白字符。
+-: 把光标移至上一行第一个非空白字符。
+w: 前移一个单词，光标停在下一个单词开头；
+W: 移动下一个单词开头，但忽略一些标点；
+e: 前移一个单词，光标停在下一个单词末尾；
+E: 移动到下一个单词末尾，如果词尾有标点，则移动到标点；
+b: 后移一个单词，光标停在上一个单词开头；
+B: 移动到上一个单词开头，忽略一些标点；
+ge: 后移一个单词，光标停在上一个单词末尾；
+gE: 同 ge ，不过‘单词’包含单词相邻的标点。
+(: 前移1句。
+): 后移1句。
+{: 前移1段。
+}: 后移1段。
+fc: 把光标移到同一行的下一个c字符处
+Fc: 把光标移到同一行的上一个c字符处
+tc: 把光标移到同一行的下一个c字符前
+Tc: 把光标移到同一行的上一个c字符后
+;: 配合f &amp;amp; t使用，重复一次
+,: 配合f &amp;amp; t使用，反向重复一次
+上面的操作都可以配合n使用，比如在正常模式(下面会讲到)下输入3h， 则光标向左移动3个字符。&lt;/p&gt;
+
+&lt;p&gt;0: 移动到行首。
+g0: 移到光标所在屏幕行行首。
+^: 移动到本行第一个非空白字符。
+g^: 同 ^ ，但是移动到当前屏幕行第一个非空字符处。
+$: 移动到行尾。
+g$: 移动光标所在屏幕行行尾。
+n|: 把光标移到递n列上。
+nG: 到文件第n行。
+:n&lt;cr&gt; 移动到第n行。
+:$&lt;cr&gt; 移动到最后一行。
+H: 把光标移到屏幕最顶端一行。
+M: 把光标移到屏幕中间一行。
+L: 把光标移到屏幕最底端一行。
+gg: 到文件头部。
+G: 到文件尾部。
+4.2 翻屏
+ctrl+f: 下翻一屏。
+ctrl+b: 上翻一屏。
+ctrl+d: 下翻半屏。
+ctrl+u: 上翻半屏。
+ctrl+e: 向下滚动一行。
+ctrl+y: 向上滚动一行。
+n%: 到文件n%的位置。
+zz: 将当前行移动到屏幕中央。
+zt: 将当前行移动到屏幕顶端。
+zb: 将当前行移动到屏幕底端。
+4.3 标记
+使用标记可以快速移动。到达标记后，可以用Ctrl+o返回原来的位置。 Ctrl+o和Ctrl+i 很像浏览器上的 后退 和 前进 。&lt;/cr&gt;&lt;/cr&gt;&lt;/p&gt;
+
+&lt;p&gt;m{a-z}: 标记光标所在位置，局部标记，只用于当前文件。
+m{A-Z}: 标记光标所在位置，全局标记。标记之后，退出Vim， 重新启动，标记仍然有效。
+&lt;code class=&quot;highlighter-rouge&quot;&gt;{a-z}: 移动到标记位置。
+'{a-z}: 移动到标记行的行首。
+&lt;/code&gt;{0-9}：回到上[2-10]次关闭vim时最后离开的位置。
+&lt;code class=&quot;highlighter-rouge&quot;&gt;: 移动到上次编辑的位置。''也可以，不过&lt;/code&gt;精确到列，而’‘精确到行 。如果想跳转到更老的位置，可以按C-o，跳转到更新的位置用C-i。
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;: 移动到上次离开的地方。
+&lt;/code&gt;.: 移动到最后改动的地方。
+:marks 显示所有标记。
+:delmarks a b – 删除标记a和b。
+:delmarks a-c – 删除标记a、b和c。
+:delmarks a c-f – 删除标记a、c、d、e、f。
+:delmarks! – 删除当前缓冲区的所有标记。
+:help mark-motions 查看更多关于mark的知识。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;插入文本
+5.1 基本插入
+i: 在光标前插入；一个小技巧：按8，再按i，进入插入模式，输入=， 按esc进入命令模式，就会出现8个=。 这在插入分割线时非常有用，如30i+&lt;esc&gt;就插入了36个+组成的分割线。
+I: 在当前行第一个非空字符前插入；
+gI: 在当前行第一列插入；
+a: 在光标后插入；
+A: 在当前行最后插入；
+o: 在下面新建一行插入；
+O: 在上面新建一行插入；
+:r filename在当前位置插入另一个文件的内容。
+:[n]r filename在第n行插入另一个文件的内容。
+:r !date 在光标处插入当前日期与时间。同理，:r !command可以将其它shell命令的输出插入当前文档。
+5.2 改写插入
+c[n]w: 改写光标后1(n)个词。
+c[n]l: 改写光标后n个字母。
+c[n]h: 改写光标前n个字母。
+[n]cc: 修改当前[n]行。
+[n]s: 以输入的文本替代光标之后1(n)个字符，相当于c[n]l。
+[n]S: 删除指定数目的行，并以所输入文本代替之。
+注意，类似cnw,dnw,ynw的形式同样可以写为ncw,ndw,nyw。&lt;/esc&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;剪切复制和寄存器
+6.1 剪切和复制、粘贴
+[n]x: 剪切光标右边n个字符，相当于d[n]l。
+[n]X: 剪切光标左边n个字符，相当于d[n]h。
+y: 复制在可视模式下选中的文本。
+yy or Y: 复制整行文本。
+y[n]w: 复制一(n)个词。
+y[n]l: 复制光标右边1(n)个字符。
+y[n]h: 复制光标左边1(n)个字符。
+y$: 从光标当前位置复制到行尾。
+y0: 从光标当前位置复制到行首。
+:m,ny&lt;cr&gt; 复制m行到n行的内容。
+y1G或ygg: 复制光标以上的所有行。
+yG: 复制光标以下的所有行。
+yaw和yas：复制一个词和复制一个句子，即使光标不在词首和句首也没关系。
+d: 删除（剪切）在可视模式下选中的文本。
+d$ or D: 删除（剪切）当前位置到行尾的内容。
+d[n]w: 删除（剪切）1(n)个单词
+d[n]l: 删除（剪切）光标右边1(n)个字符。
+d[n]h: 删除（剪切）光标左边1(n)个字符。
+d0: 删除（剪切）当前位置到行首的内容
+[n] dd: 删除（剪切）1(n)行。
+:m,nd&lt;cr&gt; 剪切m行到n行的内容。
+d1G或dgg: 剪切光标以上的所有行。
+dG: 剪切光标以下的所有行。
+daw和das：剪切一个词和剪切一个句子，即使光标不在词首和句首也没关系。
+d/f&lt;cr&gt;：这是一个比较高级的组合命令，它将删除当前位置 到下一个f之间的内容。
+p: 在光标之后粘贴。
+P: 在光标之前粘贴。
+6.2 文本对象
+aw：一个词
+as：一句。
+ap：一段。
+ab：一块（包含在圆括号中的）。
+y, d, c, v都可以跟文本对象。&lt;/cr&gt;&lt;/cr&gt;&lt;/cr&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;6.3 寄存器
+a-z：都可以用作寄存器名。”ayy把当前行的内容放入a寄存器。
+A-Z：用大写字母索引寄存器，可以在寄存器中追加内容。 如”Ayy把当前行的内容追加到a寄存器中。
+:reg 显示所有寄存器的内容。
+““：不加寄存器索引时，默认使用的寄存器。
+“&lt;em&gt;：当前选择缓冲区，”&lt;/em&gt;yy把当前行的内容放入当前选择缓冲区。
+“+：系统剪贴板。”+yy把当前行的内容放入系统剪贴板。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;查找与替换
+7.1 查找
+/something: 在后面的文本中查找something。
+?something: 在前面的文本中查找something。
+/pattern/+number: 将光标停在包含pattern的行后面第number行上。
+/pattern/-number: 将光标停在包含pattern的行前面第number行上。
+n: 向后查找下一个。
+N: 向前查找下一个。
+可以用grep或vimgrep查找一个模式都在哪些地方出现过，
+其中:grep是调用外部的grep程序，而:vimgrep是vim自己的查找算法。
+用法为： :vim[grep]/pattern/[g] [j] files
+g的含义是如果一个模式在一行中多次出现，则这一行也在结果中多次出现。
+j的含义是grep结束后，结果停在第j项，默认是停在第一项。
+vimgrep前面可以加数字限定搜索结果的上限，如
+:1vim/pattern/ % 只查找那个模式在本文件中的第一个出现。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;其实vimgrep在读纯文本电子书时特别有用，可以生成导航的目录。
+比如电子书中每一节的标题形式为：n. xxxx。你就可以这样：
+:vim/^d{1,}./ %
+然后用:cw或:copen查看结果，可以用C-w H把quickfix窗口移到左侧，
+就更像个目录了。
+7.2 替换
+:s/old/new - 用new替换当前行第一个old。
+:s/old/new/g - 用new替换当前行所有的old。
+:n1,n2s/old/new/g - 用new替换文件n1行到n2行所有的old。
+:%s/old/new/g - 用new替换文件中所有的old。
+:%s/^/xxx/g - 在每一行的行首插入xxx，^表示行首。
+:%s/$/xxx/g - 在每一行的行尾插入xxx，$表示行尾。
+所有替换命令末尾加上c，每个替换都将需要用户确认。 如：%s/old/new/gc，加上i则忽略大小写(ignore)。
+还有一种比替换更灵活的方式，它是匹配到某个模式后执行某种命令，
+语法为 :[range]g/pattern/command
+例如 :%g/^ xyz/normal dd。
+表示对于以一个空格和xyz开头的行执行normal模式下的dd命令。
+关于range的规定为：&lt;/p&gt;
+
+&lt;p&gt;如果不指定range，则表示当前行。
+m,n: 从m行到n行。
+0: 最开始一行（可能是这样）。
+$: 最后一行
+.: 当前行
+%: 所有行
+7.3 正则表达式
+高级的查找替换就要用到正则表达式。&lt;/p&gt;
+
+&lt;p&gt;\d: 表示十进制数（我猜的）
+\s: 表示空格
+\S: 非空字符
+\a: 英文字母
+|: 表示 或
+.: 表示.
+{m,n}: 表示m到n个字符。这要和 \s与\a等连用，如 \a{m,n} 表示m 到n个英文字母。
+{m,}: 表示m到无限多个字符。
+**: 当前目录下的所有子目录。
+:help pattern得到更多帮助。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;排版
+8.1 基本排版
+« 向左缩进一个shiftwidth
+    &lt;blockquote&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;向右缩进一个shiftwidth
+:ce(nter) 本行文字居中
+:le(ft) 本行文字靠左
+:ri(ght) 本行文字靠右
+gq 对选中的文字重排，即对过长的文字进行断行
+gqq 重排当前行
+gqnq 重排n行
+gqap 重排当前段
+gqnap 重排n段
+gqnj 重排当前行和下面n行
+gqQ 重排当前段对文章末尾
+J 拼接当前行和下一行
+gJ 同 J ，不过合并后不留空格。
+8.2 拼写检查
+:set spell－开启拼写检查功能
+:set nospell－关闭拼写检查功能
+]s－移到下一个拼写错误的单词
+[s－作用与上一命令类似，但它是从相反方向进行搜索
+z=－显示一个有关拼写错误单词的列表，可从中选择
+zg－告诉拼写检查器该单词是拼写正确的
+zw－与上一命令相反，告诉拼写检查器该单词是拼写错误的
+8.3 统计字数
+g ^g可以统计文档字符数，行数。 将光标放在最后一个字符上，用字符数减去行数可以粗略统计中文文档的字数。 以上对 Mac 或 Unix 的文件格式适用。 如果是 Windows 文件格式（即换行符有两个字节），字数的统计方法为： 字符数 - 行数 * 2。&lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;编辑多个文件
+9.1 一次编辑多个文件
+我们可以一次打开多个文件，如&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;vi a.txt b.txt c.txt
+使用:next(:n)编辑下一个文件。
+:2n 编辑下2个文件。
+使用:previous或:N编辑上一个文件。
+使用:wnext，保存当前文件，并编辑下一个文件。
+使用:wprevious，保存当前文件，并编辑上一个文件。
+使用:args 显示文件列表。
+:n filenames或:args filenames 指定新的文件列表。
+vi -o filenames 在水平分割的多个窗口中编辑多个文件。
+vi -O filenames 在垂直分割的多个窗口中编辑多个文件。
+9.2 多标签编辑
+vim -p files: 打开多个文件，每个文件占用一个标签页。
+:tabe, tabnew – 如果加文件名，就在新的标签中打开这个文件， 否则打开一个空缓冲区。
+^w gf – 在新的标签页里打开光标下路径指定的文件。
+:tabn – 切换到下一个标签。Control + PageDown，也可以。
+:tabp – 切换到上一个标签。Control + PageUp，也可以。
+[n] gt – 切换到下一个标签。如果前面加了 n ， 就切换到第n个标签。第一个标签的序号就是1。
+:tab split – 将当前缓冲区的内容在新页签中打开。
+:tabc[lose] – 关闭当前的标签页。
+:tabo[nly] – 关闭其它的标签页。
+:tabs – 列出所有的标签页和它们包含的窗口。
+:tabm[ove] [N] – 移动标签页，移动到第N个标签页之后。 如 tabm 0 当前标签页，就会变成第一个标签页。
+9.3 缓冲区
+:buffers或:ls或:files 显示缓冲区列表。
+ctrl+^：在最近两个缓冲区间切换。
+:bn – 下一个缓冲区。
+:bp – 上一个缓冲区。
+:bl – 最后一个缓冲区。
+:b[n]或:[n]b – 切换到第n个缓冲区。
+:nbw(ipeout) – 彻底删除第n个缓冲区。
+:nbd(elete) – 删除第n个缓冲区，并未真正删除，还在unlisted列表中。
+:ba[ll] – 把所有的缓冲区在当前页中打开，每个缓冲区占一个窗口。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;分屏编辑
+vim -o file1 file2:水平分割窗口，同时打开file1和file2
+vim -O file1 file2:垂直分割窗口，同时打开file1和file2
+10.1 水平分割
+:split(:sp) – 把当前窗水平分割成两个窗口。(CTRL-W s 或 CTRL-W CTRL-S) 注意如果在终端下，CTRL-S可能会冻结终端，请按CTRL-Q继续。
+:split filename – 水平分割窗口，并在新窗口中显示另一个文件。
+:nsplit(:nsp) – 水平分割出一个n行高的窗口。
+:[N]new – 水平分割出一个N行高的窗口，并编辑一个新文件。 (CTRL-W n或 CTRL-W CTRL-N)
+ctrl+w f –水平分割出一个窗口，并在新窗口打开名称为光标所在词的文件 。
+C-w C-^ – 水平分割一个窗口，打开刚才编辑的文件。
+10.2 垂直分割
+:vsplit(:vsp) – 把当前窗口分割成水平分布的两个窗口。 (CTRL-W v或CTRL CTRL-V)
+:[N]vne[w] – 垂直分割出一个新窗口。
+:vertical 水平分割的命令： 相应的垂直分割。
+10.3 关闭子窗口
+:qall – 关闭所有窗口，退出vim。
+:wall – 保存所有修改过的窗口。
+:only – 只保留当前窗口，关闭其它窗口。(CTRL-W o)
+:close – 关闭当前窗口，CTRL-W c能实现同样的功能。 (象 :q :x同样工作 )
+10.4 调整窗口大小
+ctrl+w + –当前窗口增高一行。也可以用n增高n行。
+ctrl+w - –当前窗口减小一行。也可以用n减小n行。
+ctrl+w _ –当前窗口扩展到尽可能的大。也可以用n设定行数。
+:resize n – 当前窗口n行高。
+ctrl+w = – 所有窗口同样高度。
+n ctrl+w _ – 当前窗口的高度设定为n行。
+ctrl+w &amp;lt; –当前窗口减少一列。也可以用n减少n列。
+ctrl+w &amp;gt; –当前窗口增宽一列。也可以用n增宽n列。
+ctrl+w | –当前窗口尽可能的宽。也可以用n设定列数。
+10.5 切换和移动窗口
+如果支持鼠标，切换和调整子窗口的大小就简单了。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ctrl+w ctrl+w: 切换到下一个窗口。或者是ctrl+w w。
+ctrl+w p: 切换到前一个窗口。
+ctrl+w h(l,j,k):切换到左（右，下，上）的窗口。
+ctrl+w t(b):切换到最上（下）面的窗口。&lt;br /&gt;
+ctrl+w H(L,K,J): 将当前窗口移动到最左（右、上、下）面。
+ctrl+w r：旋转窗口的位置。
+ctrl+w T: 将当前的窗口移动到新的标签页上。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;快速编辑
+11.1 改变大小写
+~: 反转光标所在字符的大小写。
+可视模式下的U或u：把选中的文本变为大写或小写。
+gu(U)接范围（如$，或G），可以把从光标当前位置到指定位置之间字母全部 转换成小写或大写。如ggguG，就是把开头到最后一行之间的字母全部变为小 写。再如gu5j，把当前行和下面四行全部变成小写。
+11.2 替换（normal模式）
+r: 替换光标处的字符，同样支持汉字。
+R: 进入替换模式，按esc回到正常模式。
+11.3 撤消与重做（normal模式）
+[n] u: 取消一(n)个改动。
+:undo 5 – 撤销5个改变。
+:undolist – 你的撤销历史。
+ctrl + r: 重做最后的改动。
+U: 取消当前行中所有的改动。
+:earlier 4m – 回到4分钟前
+:later 55s – 前进55秒
+11.4 宏
+. –重复上一个编辑动作
+qa：开始录制宏a（键盘操作记录）
+q：停止录制
+@a：播放宏a&lt;/li&gt;
+  &lt;li&gt;编辑特殊文件
+12.1 文件加解密
+vim -x file: 开始编辑一个加密的文件。
+:X – 为当前文件设置密码。
+:set key= – 去除文件的密码。
+这里是 滇狐总结的比较高级的vi技巧。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;12.2 文件的编码
+:e ++enc=utf8 filename, 让vim用utf-8的编码打开这个文件。
+:w ++enc=gbk，不管当前文件什么编码，把它转存成gbk编码。
+:set fenc或:set fileencoding，查看当前文件的编码。
+在vimrc中添加set fileencoding=ucs-bom,utf-8,cp936，vim会根据要打开的文件选择合适的编码。 注意：编码之间不要留空格。 cp936对应于gbk编码。 ucs-bom对应于windows下的文件格式。
+让vim 正确处理文件格式和文件编码，有赖于 ~/.vimrc的正确配置&lt;/p&gt;
+
+&lt;p&gt;12.3 文件格式
+大致有三种文件格式：unix, dos, mac. 三种格式的区别主要在于回车键的编码：dos 下是回车加换行，unix 下只有 换行符，mac 下只有回车符。&lt;/p&gt;
+
+&lt;p&gt;:e ++ff=dos filename, 让vim用dos格式打开这个文件。
+:w ++ff=mac filename, 以mac格式存储这个文件。
+:set ff，显示当前文件的格式。
+在vimrc中添加set fileformats=unix,dos,mac，让vim自动识别文件格式。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;编程辅助
+13.1 一些按键
+gd: 跳转到局部变量的定义处；
+gD: 跳转到全局变量的定义处，从当前文件开头开始搜索；
+g;: 上一个修改过的地方；
+g,: 下一个修改过的地方；
+[[: 跳转到上一个函数块开始，需要有单独一行的{。
+]]: 跳转到下一个函数块开始，需要有单独一行的{。
+[]: 跳转到上一个函数块结束，需要有单独一行的}。
+][: 跳转到下一个函数块结束，需要有单独一行的}。
+[{: 跳转到当前块开始处；
+]}: 跳转到当前块结束处；
+[/: 跳转到当前注释块开始处；
+]/: 跳转到当前注释块结束处；
+%: 不仅能移动到匹配的(),{}或[]上，而且能在#if，#else， #endif之间跳跃。
+下面的括号匹配对编程很实用的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ci’, di’, yi’：修改、剪切或复制’之间的内容。
+ca’, da’, ya’：修改、剪切或复制’之间的内容，包含’。
+ci”, di”, yi”：修改、剪切或复制”之间的内容。
+ca”, da”, ya”：修改、剪切或复制”之间的内容，包含”。
+ci(, di(, yi(：修改、剪切或复制()之间的内容。
+ca(, da(, ya(：修改、剪切或复制()之间的内容，包含()。
+ci[, di[, yi[：修改、剪切或复制[]之间的内容。
+ca[, da[, ya[：修改、剪切或复制[]之间的内容，包含[]。
+ci{, di{, yi{：修改、剪切或复制{}之间的内容。
+ca{, da{, ya{：修改、剪切或复制{}之间的内容，包含{}。
+ci&amp;lt;, di&amp;lt;, yi&amp;lt;：修改、剪切或复制&amp;lt;&amp;gt;之间的内容。
+ca&amp;lt;, da&amp;lt;, ya&amp;lt;：修改、剪切或复制&amp;lt;&amp;gt;之间的内容，包含&amp;lt;&amp;gt;。
+13.2 ctags
+ctags -R: 生成tag文件，-R表示也为子目录中的文件生成tags
+:set tags=path/tags – 告诉ctags使用哪个tag文件
+:tag xyz – 跳到xyz的定义处，或者将光标放在xyz上按C-]，返回用C-t
+:stag xyz – 用分割的窗口显示xyz的定义，或者C-w ]， 如果用C-w n ]，就会打开一个n行高的窗口
+:ptag xyz – 在预览窗口中打开xyz的定义，热键是C-w }。
+:pclose – 关闭预览窗口。热键是C-w z。
+:pedit abc.h – 在预览窗口中编辑abc.h
+:psearch abc – 搜索当前文件和当前文件include的文件，显示包含abc的行。
+有时一个tag可能有多个匹配，如函数重载，一个函数名就会有多个匹配。 这种情况会先跳转到第一个匹配处。&lt;/p&gt;
+
+&lt;p&gt;:[n]tnext – 下一[n]个匹配。
+:[n]tprev – 上一[n]个匹配。
+:tfirst – 第一个匹配
+:tlast – 最后一个匹配
+:tselect tagname – 打开选择列表
+tab键补齐&lt;/p&gt;
+
+&lt;p&gt;:tag xyz&lt;tab&gt; -- 补齐以xyz开头的tag名，继续按tab键，会显示其他的。
+:tag /xyz&lt;tab&gt; -- 会用名字中含有xyz的tag名补全。
+13.3 cscope
+cscope -Rbq: 生成cscope.out文件
+:cs add /path/to/cscope.out /your/work/dir
+:cs find c func -- 查找func在哪些地方被调用
+:cw -- 打开quickfix窗口查看结果
+13.4 gtags
+Gtags综合了ctags和cscope的功能。 使用Gtags之前，你需要安装GNU Gtags。 然后在工程目录运行 gtags 。&lt;/tab&gt;&lt;/tab&gt;&lt;/p&gt;
+
+&lt;p&gt;:Gtags funcname 定位到 funcname 的定义处。
+:Gtags -r funcname 查询 funcname被引用的地方。
+:Gtags -s symbol 定位 symbol 出现的地方。
+:Gtags -g string Goto string 出现的地方。 :Gtags -gi string 忽略大小写。
+:Gtags -f filename 显示 filename 中的函数列表。 你可以用 :Gtags -f % 显示当前文件。
+:Gtags -P pattern 显示路径中包含特定模式的文件。 如 :Gtags -P .h$ 显示所有头文件， :Gtags -P /vm/ 显示vm目录下的文件。
+13.5 编译
+vim提供了:make来编译程序，默认调用的是make， 如果你当前目录下有makefile，简单地:make即可。&lt;/p&gt;
+
+&lt;p&gt;如果你没有make程序，你可以通过配置makeprg选项来更改make调用的程序。 如果你只有一个abc.java文件，你可以这样设置：&lt;/p&gt;
+
+&lt;p&gt;set makeprg=javac\ abc.java
+然后:make即可。如果程序有错，可以通过quickfix窗口查看错误。 不过如果要正确定位错误，需要设置好errorformat，让vim识别错误信息。 如：&lt;/p&gt;
+
+&lt;p&gt;:setl efm=%A%f:%l:\ %m,%-Z%p^,%-C%.%#
+%f表示文件名，%l表示行号， %m表示错误信息，其它的还不能理解。 请参考 :help errorformat。&lt;/p&gt;
+
+&lt;p&gt;13.6 快速修改窗口
+其实是quickfix插件提供的功能， 对编译调试程序非常有用 :)&lt;/p&gt;
+
+&lt;p&gt;:copen – 打开快速修改窗口。
+:cclose – 关闭快速修改窗口。
+快速修改窗口在make程序时非常有用，当make之后：&lt;/p&gt;
+
+&lt;p&gt;:cl – 在快速修改窗口中列出错误。
+:cn – 定位到下一个错误。
+:cp – 定位到上一个错误。
+:cr – 定位到第一个错误。
+13.7 自动补全
+C-x C-s – 拼写建议。
+C-x C-v – 补全vim选项和命令。
+C-x C-l – 整行补全。
+C-x C-f – 自动补全文件路径。弹出菜单后，按C-f循环选择，当然也可以按 C-n和C-p。
+C-x C-p 和C-x C-n – 用文档中出现过的单词补全当前的词。 直接按C-p和C-n也可以。
+C-x C-o – 编程时可以补全关键字和函数名啊。
+C-x C-i – 根据头文件内关键字补全。
+C-x C-d – 补全宏定义。
+C-x C-n – 按缓冲区中出现过的关键字补全。 直接按C-n或C-p即可。
+当弹出补全菜单后：&lt;/p&gt;
+
+&lt;p&gt;C-p 向前切换成员；
+C-n 向后切换成员；
+C-e 退出下拉菜单，并退回到原来录入的文字；
+C-y 退出下拉菜单，并接受当前选项。
+13.8 多行缩进缩出
+正常模式下，按两下&amp;gt;;光标所在行会缩进。
+如果先按了n，再按两下&amp;gt;;，光标以下的n行会缩进。
+对应的，按两下&amp;lt;;，光标所在行会缩出。
+如果在编辑代码文件，可以用=进行调整。
+在可视模式下，选择要调整的代码块，按=，代码会按书写规则缩排好。
+或者n =，调整n行代码的缩排。
+13.9 折叠
+zf – 创建折叠的命令，可以在一个可视区域上使用该命令；
+zd – 删除当前行的折叠；
+zD – 删除当前行的折叠；
+zfap – 折叠光标所在的段；
+zo – 打开折叠的文本；
+zc – 收起折叠；
+za – 打开/关闭当前折叠；
+zr – 打开嵌套的折行；
+zm – 收起嵌套的折行；
+zR (zO) – 打开所有折行；
+zM (zC) – 收起所有折行；
+zj – 跳到下一个折叠处；
+zk – 跳到上一个折叠处；
+zi – enable/disable fold;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;命令行
+normal模式下按:进入命令行模式&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;14.1 命令行模式下的快捷键：
+上下方向键：上一条或者下一条命令。如果已经输入了部分命令，则找上一 条或者下一条匹配的命令。
+左右方向键：左/右移一个字符。
+C-w： 向前删除一个单词。
+C-h： 向前删除一个字符，等同于Backspace。
+C-u： 从当前位置移动到命令行开头。
+C-b： 移动到命令行开头。
+C-e： 移动到命令行末尾。
+Shift-Left： 左移一个单词。
+Shift-Right： 右移一个单词。
+@： 重复上一次的冒号命令。
+q： 正常模式下，q然后按’:’，打开命令行历史缓冲区， 可以像编辑文件一样编辑命令。
+q/和q? 可以打开查找历史记录。
+14.2 执行外部命令
+:! cmd 执行外部命令。
+:!! 执行上一次的外部命令。
+:sh 调用shell，用exit返回vim。
+:r !cmd 将命令的返回结果插入文件当前位置。
+:m,nw !cmd 将文件的m行到n行之间的内容做为命令输入执行命令。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;其它
+15.1 工作目录
+:pwd 显示vim的工作目录。
+:cd path 改变vim的工作目录。
+:set autochdir 可以让vim 根据编辑的文件自动切换工作目录。
+15.2 一些快捷键（收集中）
+K: 打开光标所在词的manpage。
+&lt;em&gt;: 向下搜索光标所在词。
+g&lt;/em&gt;: 同上，但部分符合即可。
+#: 向上搜索光标所在词。
+g#: 同上，但部分符合即可。
+g C-g: 统计全文或统计部分的字数。
+15.3 在线帮助
+:h(elp)或F1 打开总的帮助。
+:help user-manual 打开用户手册。
+命令帮助的格式为：第一行指明怎么使用那个命令； 然后是缩进的一段解释这个命令的作用，然后是进一步的信息。
+:helptags somepath 为somepath中的文档生成索引。
+:helpgrep 可以搜索整个帮助文档，匹配的列表显示在quickfix窗口中。
+Ctrl+] 跳转到tag主题，Ctrl+t 跳回。
+:ver 显示版本信息。
+15.4 一些小功能
+简单计算器: 在插入模式下，输入C-r =，然后输入表达式，就能在 光标处得到计算结果。&lt;/li&gt;
+&lt;/ol&gt;
 </description>
-        <pubDate>Sat, 01 Jan 1222 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/1222/01/%E7%AD%94%E9%A2%98%E5%BA%93%E7%9A%84%E5%89%AF%E6%9C%AC4/</link>
-        <guid isPermaLink="true">http://localhost:4000/1222/01/%E7%AD%94%E9%A2%98%E5%BA%93%E7%9A%84%E5%89%AF%E6%9C%AC4/</guid>
+        <pubDate>Sun, 01 Jan 1111 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/1111/01/%E6%9C%80%E5%85%A8%E7%9A%84vim%E5%BF%AB%E6%8D%B7%E9%94%AE/</link>
+        <guid isPermaLink="true">http://localhost:4000/1111/01/%E6%9C%80%E5%85%A8%E7%9A%84vim%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid>
         
         
       </item>
     
       <item>
-        <title>当在户外遭遇雷电天气时</title>
-        <description>&lt;p&gt;当在户外遭遇雷电天气时，下列做法不正确的是（ac ）。&lt;/p&gt;
+        <title>免费计算机书籍汇总</title>
+        <description>&lt;p&gt;没有注明语种的，都为英语资源。&lt;/p&gt;
 
-&lt;p&gt;A.
-快向高处跑
-B.
-远离电线杆、烟囱
-C.
-躲到大树下暂避
-D.
-应尽量离开山丘、海滨、河边等地方&lt;/p&gt;
+&lt;h2 id=&quot;目录&quot;&gt;目录&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#一web-开发&quot;&gt;一、Web 开发&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#二系统管理&quot;&gt;二、系统管理&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#三编程语言&quot;&gt;三、编程语言&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#四数据库&quot;&gt;四、数据库&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#五软件开发&quot;&gt;五、软件开发&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#六人工智能&quot;&gt;六、人工智能&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#七数学理论&quot;&gt;七、数学理论&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#八其他&quot;&gt;八、其他&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;一web-开发&quot;&gt;一、Web 开发&lt;/h2&gt;
+
+&lt;h3 id=&quot;11-javascript-语言&quot;&gt;1.1 JavaScript 语言&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Modern JavaScript Tutorial（&lt;a href=&quot;https://zh.javascript.info/&quot;&gt;中文&lt;/a&gt;，&lt;a href=&quot;https://javascript.info/&quot;&gt;英文&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS&quot;&gt;你不知道的 JS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://speakingjs.com/&quot;&gt;Speaking JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://exploringjs.com/impatient-js/index.html&quot;&gt;急性子程序员的 JavaScript 教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wangdoc.com/javascript/&quot;&gt;JavaScript 语言教程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nzakas/understandinges6/tree/master/manuscript&quot;&gt;理解 ES6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://exploringjs.com/es6/&quot;&gt;探索 ES6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://exploringjs.com/es2016-es2017.html&quot;&gt;探索 ES2016 和 ES2017&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://exploringjs.com/es2018-es2019/toc.html&quot;&gt;探索 ES2018 和 ES2019&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://es6.ruanyifeng.com/&quot;&gt;ES6 标准入门&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://eloquentjavascript.net/&quot;&gt;Eloquent JavaScript（第三版）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://exploringjs.com/tackling-ts/&quot;&gt;TypeScript 教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Node.js 入门（&lt;a href=&quot;https://www.nodebeginner.org/index-zh-cn.html&quot;&gt;中文&lt;/a&gt;，&lt;a href=&quot;https://www.nodebeginner.org/&quot;&gt;英文&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/krasimir/react-in-patterns&quot;&gt;React 编程模式&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tyroprogrammer/learn-react-app/tree/master/src/tutorial&quot;&gt;React 应用开发教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leanpub.com/build-react-app-with-atdd&quot;&gt;Acceptance Test Driven Development with React&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://huziketang.mangojuice.top/books/react/&quot;&gt;React.js 小书&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fullstackopen.com/en&quot;&gt;现代 Web 开发&lt;/a&gt;：Nodejs + React 的在线互动教程。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nswbmw/node-in-debugging&quot;&gt;Node.js 调试指南&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mjavascript/mastering-modular-javascript&quot;&gt;精通 JavaScript 模块&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.robinwieruch.de/the-road-to-graphql-book/&quot;&gt;GraphQL 之路&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jsdatav.is/intro.html&quot;&gt;JavaScript 数据可视化&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oauth.com/&quot;&gt;OAuth 2.0 Servers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netlify.com/oreilly-jamstack/&quot;&gt;JAMstack Web 开发&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sicp.comp.nus.edu.sg/&quot;&gt;SICP（JavaScript 版）&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;12-其他-web-开发&quot;&gt;1.2 其他 Web 开发&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bagder/http3-explained&quot;&gt;http3-explained&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cssanimation/css-animation-101&quot;&gt;CSS Animation 101&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://practicaltypography.com/&quot;&gt;实用排版指南&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/resources/azure-for-architects/&quot;&gt;Azure 介绍（第二版）&lt;/a&gt;，&lt;a href=&quot;https://github.com/PacktPublishing/Azure-for-Architects&quot;&gt;下载&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ituring.com.cn/book/1421&quot;&gt;Chrome 扩展及应用开发&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://landing.google.com/sre/book.html&quot;&gt;网站可靠性工作手册&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;二系统管理&quot;&gt;二、系统管理&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://linuxcommand.org/tlcl.php&quot;&gt;Linux 命令行&lt;/a&gt;（The Linux Command Line）, &lt;a href=&quot;http://sourceforge.net/projects/linuxcommand/files/TLCL/13.07/TLCL-13.07.pdf/download&quot;&gt;下载&lt;/a&gt;，&lt;a href=&quot;http://billie66.github.io/TLCL/index.html&quot;&gt;中译&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hellowebbooks.com/learn-command-line/&quot;&gt;学习命令行&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linux.vbird.org/linux_basic/centos7/&quot;&gt;鸟哥的 Linux 私房菜&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linuxjourney.com/&quot;&gt;Linux 之旅&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wangdoc.com/bash/&quot;&gt;Bash 脚本教程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dylanaraps/pure-bash-bible&quot;&gt;Pure Bash Bible&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.catb.org/~esr/writings/taoup/html/&quot;&gt;Unix 编程艺术&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bob.cs.sonoma.edu/IntroCompOrg-x64/book.html&quot;&gt;计算机系统导论：以汇编语言与 Linux 系统为例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/SystemsApproach/book&quot;&gt;计算机网络：系统方法&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bob.cs.sonoma.edu/IntroCompOrg-RPi/frontmatter-1.html&quot;&gt;计算机组织导论：以树莓派和 ARM 汇编语言为例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cnp3book.info.ucl.ac.be/#&quot;&gt;计算机网络：原理，协议和实践&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xinqiu.gitbooks.io/linux-insides-cn/content/index.html&quot;&gt;Linux 内核揭密&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.opsschool.org/&quot;&gt;运维工程师学校（Ops School）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/exec/obidos/ASIN/1558604979/qid=1012094537/sr=8-1/ref=sr_8_71_1/103-9130044-4352613&quot;&gt;文件系统设计&lt;/a&gt;（Practical File System Design）, &lt;a href=&quot;http://www.nobius.org/~dbg/practical-file-system-design.pdf&quot;&gt;下载&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docker-curriculum.com/&quot;&gt;Docker 初学者教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://aosabook.org/en/&quot;&gt;开源应用程序的体系结构&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;三编程语言&quot;&gt;三、编程语言&lt;/h2&gt;
+
+&lt;h3 id=&quot;31-cc&quot;&gt;3.1 C，C++&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cslibrary.stanford.edu/101/EssentialC.pdf&quot;&gt;Essential C&lt;/a&gt;（PDF）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://modernc.gforge.inria.fr/&quot;&gt;Modern C（第二版）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.isthe.com/chongo/tech/comp/c/index.html&quot;&gt;C 语言学习资料&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/illinois-cs241/coursebook&quot;&gt;C 语言系统编程&lt;/a&gt;（&lt;a href=&quot;http://cs241.cs.illinois.edu/coursebook/index.html&quot;&gt;在线阅读&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;C 语言教程：构建 Lisp 编译器（&lt;a href=&quot;https://ksco.gitbooks.io/build-your-own-lisp/&quot;&gt;中文&lt;/a&gt;，&lt;a href=&quot;http://www.buildyourownlisp.com/contents&quot;&gt;英文&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.icce.rug.nl/documents/cplusplus/&quot;&gt;C++ Annotations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/3dgen/cppwasm-book&quot;&gt;C/C++ 面向 wasm 编程—— Emscripten 工程实践&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;32-go&quot;&gt;3.2 Go&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://go101.org/&quot;&gt;Go 101&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://golangbot.com/&quot;&gt;Golangbot 的 Go 语言初级教程&lt;/a&gt;，&lt;a href=&quot;https://www.yuque.com/ksco/ogg7um&quot;&gt;中译&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/chai2010/advanced-go-programming-book&quot;&gt;Go 高级编程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dave.cheney.net/high-performance-go-workshop/gopherchina-2019.html&quot;&gt;高性能 Go 代码工坊&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;33-python&quot;&gt;3.3 Python&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://archive.org/details/2018Fundamentals.ofPython&quot;&gt;Python 编程基础&lt;/a&gt;（PDF）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/webartifex/intro-to-python&quot;&gt;Python 编程入门&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thomas-cokelaer.info/tutorials/python/index.html&quot;&gt;Python 语法笔记&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.freetechbooks.com/introduction-to-python-for-computational-science-and-engineering-t884.html&quot;&gt;Python 科学应用入门&lt;/a&gt;（Introduction to Python for Computational Science and Engineering）, &lt;a href=&quot;http://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf&quot;&gt;下载&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jackfrued/Python-100-Days&quot;&gt;Python - 100天从新手到大师&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://python.swaroopch.com/&quot;&gt;A Byte of Python&lt;/a&gt;，中译：&lt;a href=&quot;https://bop.mol.uno/&quot;&gt;简明 Python 教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dbooks.org/invent-your-own-computer-games-with-python-1503212300/&quot;&gt;使用 Python 写一个自己的游戏&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.python-guide.org/&quot;&gt;The Hitchhiker’s Guide to Python!&lt;/a&gt;，中译：&lt;a href=&quot;https://pythonguidecn.readthedocs.io/zh/latest/&quot;&gt;Python 开发最佳实践指南&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/1016959663602400&quot;&gt;廖雪峰 Python 教程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://projectpython.net/chapter00/&quot;&gt;Python 语言互动教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://interactivepython.org/runestone/static/pythonds/index.html&quot;&gt;Python 算法与数据结构&lt;/a&gt;（第二版），&lt;a href=&quot;https://github.com/facert/python-data-structure-cn&quot;&gt;中译&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SICP（Python 版）（&lt;a href=&quot;https://wizardforcel.gitbooks.io/sicp-in-python/content/&quot;&gt;英文&lt;/a&gt;，&lt;a href=&quot;https://github.com/wizardforcel/sicp-py-zh&quot;&gt;中文&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jakevdp/PythonDataScienceHandbook&quot;&gt;Python 数据科学手册&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.obeythetestinggoat.com/pages/book.html#toc&quot;&gt;Test-Driven Web Development with Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff with Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/digitalocean-ebook-how-to-code-in-python&quot;&gt;如何使用 Python3 编程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://socialdata.site/&quot;&gt;社交媒体挖掘&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/machine-learning-projects-python-a-digitalocean-ebook&quot;&gt;数据科学项目 Python 实战&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zmrenwu.com/courses/HelloDjango-blog-tutorial/&quot;&gt;HelloDjango - Django 博客教程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lectures.quantecon.org/_downloads/pdf/py/Quantitative%20Economics%20with%20Python.pdf&quot;&gt;使用 Python 学习计量经济学&lt;/a&gt;（PDF）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers&quot;&gt;黑客的贝叶斯方法：以 Python 为例&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;34-rust&quot;&gt;3.4 Rust&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stevedonovan.github.io/rust-gentle-intro/readme.html&quot;&gt;Rust 语言导论&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jyotirmoy.net/posts/2018-12-01-rust-book.html&quot;&gt;Rust 编程语言&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://doc.rust-lang.org/stable/rust-by-example/index.html&quot;&gt;Rust By Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;35-其他编程语言&quot;&gt;3.5 其他编程语言&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://agda-zh.github.io/PLFA-zh/&quot;&gt;编程语言基础：Agda 语言描述&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ia802309.us.archive.org/25/items/pdfy-MgN0H1joIoDVoIC7/The_AWK_Programming_Language.pdf&quot;&gt;Awk 编程语言&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tutlane.com/tutorial/csharp/csharp-tutorial&quot;&gt;C# 语言免费教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sicpdistilled.com/&quot;&gt;SICP（Clojure 版）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.braveclojure.com/clojure-for-the-brave-and-true/&quot;&gt;Clojure for the Brave and True&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learn-clojurescript.com/&quot;&gt;学习 ClojureScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/1252599548343744&quot;&gt;廖雪峰 Java 教程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://benlauwens.github.io/ThinkJulia.jl/latest/book.html&quot;&gt;计算机科学：以 Julia 语言为例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://people.smp.uq.edu.au/YoniNazarathy/julia-stats/StatisticsWithJulia.pdf&quot;&gt;使用 Julia 语言学习统计学&lt;/a&gt;（PDF）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fleurer.github.io/lyah/&quot;&gt;Haskell 趣学指南&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cnhaskell.com/index.html&quot;&gt;Real World Haskell 中文版&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours&quot;&gt;Haskell 语言48小时教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dev.stephendiehl.com/hask/&quot;&gt;Haskell 语言入门&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.gigamonkeys.com/book/&quot;&gt;Common Lisp 实战教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ssalewski.de/nimprogramming.html&quot;&gt;Nim 语言编程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/&quot;&gt;OCaml 语言在线教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hop.perl.plover.com/&quot;&gt;高阶 Perl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://i-love-ruby.gitlab.io/&quot;&gt;我爱 Ruby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.railstutorial.org/book&quot;&gt;Ruby on Rails Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://yurichev.com/writings/AL4B-EN.pdf&quot;&gt;汇编语言初学者教程&lt;/a&gt;（PDF）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bob.cs.sonoma.edu/IntroCompOrg-RPi/intro-co-rpi.html&quot;&gt;ARM 汇编语言简介&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pacman128.github.io/pcasm/&quot;&gt;PC Assembly Language&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;四数据库&quot;&gt;四、数据库&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://selectstarsql.com/&quot;&gt;SQL 开源教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cstack.github.io/db_tutorial/&quot;&gt;如何开发一个简单的数据库&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://webdam.inria.fr/Alice/&quot;&gt;数据库基础&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/896043488029600&quot;&gt;廖雪峰 SQL 教程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.graphile.org/postgraphile/postgresql-schema-design/&quot;&gt;PostgreSQL 模式设计&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;五软件开发&quot;&gt;五、软件开发&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bottomupcs.com/index.xhtml&quot;&gt;计算机科学入门&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://craftinginterpreters.com/&quot;&gt;Crafting Interpreters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.emulator101.com/&quot;&gt;Emulator 101&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mitpress.mit.edu/sites/default/files/sicp/index.html&quot;&gt;计算机程序的结构和解释（SICP）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.composingprograms.com/&quot;&gt;编写程序（Composing Programs）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cfenollosa/os-tutorial&quot;&gt;从零开始写一个操作系统&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DoctorWkt/acwj&quot;&gt;编译器教程&lt;/a&gt;: 如何写一个最小的 C 语言编译器&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/angrave/SystemProgramming/wiki&quot;&gt;System Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://htdp.org/2018-01-06/Book/index.html&quot;&gt;How to Design Programs&lt;/a&gt;（第二版）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jeffe.cs.illinois.edu/teaching/algorithms/&quot;&gt;算法&lt;/a&gt;，by Jeff Erickson，&lt;a href=&quot;https://github.com/jeffgerickson/algorithms&quot;&gt;GitHub 仓库&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://theory.stanford.edu/~amitp/GameProgramming/&quot;&gt;A* 算法教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dennis714/RE-for-beginners&quot;&gt;逆向工程入门&lt;/a&gt;（Reverse Engineering for Beginners，&lt;a href=&quot;http://beginners.re/Reverse_Engineering_for_Beginners-en.pdf&quot;&gt;英文&lt;/a&gt;，&lt;a href=&quot;https://beginners.re/RE4B-CN-vol1.pdf&quot;&gt;中文卷一&lt;/a&gt;, &lt;a href=&quot;https://beginners.re/RE4B-CN-vol2.pdf&quot;&gt;中文卷二&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.begin.re/&quot;&gt;逆向工程初学者教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://qmlbook.github.io/&quot;&gt;Qt5 教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/winitzki/sofp&quot;&gt;函数式编程：以 Scala 为例&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.learn-clojurescript.com/&quot;&gt;学习 ClojureScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html&quot;&gt;并行编程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://landing.google.com/sre/books/&quot;&gt;谷歌 SRE（网站可靠性工程）丛书&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;六人工智能&quot;&gt;六、人工智能&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ajaymache/machine-learning-yearning&quot;&gt;Machine Learning Yearning&lt;/a&gt;，by 吴恩达&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ds8.gitbooks.io/textbook/content/&quot;&gt;计算与推断：数据科学基础&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/norvig/paip-lisp&quot;&gt;人工智能编程范式&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bloomberg.github.io/foml/&quot;&gt;Bloomberg 机器学习课程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/DiHiera/Algorithm_Interview_Notes-Chinese-master&quot;&gt;深度学习/机器学习面试笔记&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www-users.cs.umn.edu/~kumar001/dmbook/index.php&quot;&gt;数据挖掘教材&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://christophm.github.io/interpretable-ml-book/&quot;&gt;机器学习解释&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;深入深度学习（&lt;a href=&quot;https://d2l.ai/&quot;&gt;英文&lt;/a&gt;，&lt;a href=&quot;https://zh.d2l.ai/&quot;&gt;中文&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/open-source-for-science/TensorFlow-Course&quot;&gt;TensorFlow-Course&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tf.wiki/&quot;&gt;简单粗暴 TensorFlow 2&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mbmlbook.com/&quot;&gt;基于模型的机器学习&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Spandan-Madan/DeepLearningProject&quot;&gt;Deep Learning Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://incompleteideas.net/book/the-book.html&quot;&gt;强化学习导论&lt;/a&gt;（第二版）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://livebook.manning.com/#!/book/grokking-deep-learning/&quot;&gt;Grokking Deep Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nndl/nndl.github.io&quot;&gt;神经网络与深度学习&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://easyai.tech/blog/65pdf-pm-understand-dl/&quot;&gt;让产品经理全面理解深度学习&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fe4ml.apachecn.org/#/&quot;&gt;面向机器学习的特征工程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cse.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html&quot;&gt;理解机器学习：从理论到算法&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.d2l.ai/index.html&quot;&gt;Dive into Deep Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.cornell.edu/jeh/book%20no%20so;utions%20March%202019.pdf&quot;&gt;数据科学基础&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mml-book.github.io/&quot;&gt;机器学习的数学基础&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jacobeisenstein/gt-nlp-class/raw/master/notes/eisenstein-nlp-notes.pdf&quot;&gt;自然语言处理&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;七数学理论&quot;&gt;七、数学理论&lt;/h2&gt;
+
+&lt;h3 id=&quot;71-微积分&quot;&gt;7.1 微积分&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://infinitedescent.xyz/&quot;&gt;进入纯数学&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://calculusmadeeasy.org/&quot;&gt;微积分很容易&lt;/a&gt;（Calculus made easy）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;72-统计与概率&quot;&gt;7.2 统计与概率&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://seeing-theory.brown.edu/#firstPage&quot;&gt;Seeing Theory：概率论和统计入门&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.statisticsdonewrong.com/index.html&quot;&gt;Statistics Done Wrong&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jerrydallal.com/LHSP/LHSP.htm&quot;&gt;统计小手册&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://prob140.org/textbook/README&quot;&gt;Prob 140&lt;/a&gt;：概率论教材&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://otexts.org/fpp2/&quot;&gt;预测：原理与实践&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.textbook.ds100.org/&quot;&gt;数据科学的原理与技巧&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://probabilitycourse.com/&quot;&gt;概率、统计和随机过程导论&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.ma.utexas.edu/users/gordanz/lecture_notes_page.html&quot;&gt;概率，统计和随机过程讲义&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://web.ma.utexas.edu/users/gordanz/notes/introduction_to_stochastic_processes.pdf&quot;&gt;随机过程导论&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;73-线性代数&quot;&gt;7.3 线性代数&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hadrienj.github.io/posts/Deep-Learning-Book-Series-Introduction/&quot;&gt;深度学习的线性代数基础&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://joshua.smcvt.edu/linearalgebra/#current_version&quot;&gt;线性代数教材&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://immersivemath.com/ila/index.html&quot;&gt;沉浸式线性代数&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://textbooks.math.gatech.edu/ila/&quot;&gt;交互式线性代数教程&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;74-密码学&quot;&gt;7.4 密码学&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://toc.cryptobook.us/&quot;&gt;应用加密法的研究生教材&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://intensecrypto.org/public/&quot;&gt;加密学导论&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.crypto101.io/&quot;&gt;Crypto 101&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cryptobook.nakov.com/&quot;&gt;程序员的实用密码学&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;75-其他理论书籍&quot;&gt;7.5 其他理论书籍&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.scratchapixel.com/&quot;&gt;计算机图形学教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://introtcs.org/public/index.html&quot;&gt;计算机科学的理论导论&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quantum.country/qcvc&quot;&gt;好奇者的量子计算入门&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.simply-logical.space/&quot;&gt;简单逻辑&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hmemcpy/milewski-ctfp-pdf/&quot;&gt;写给程序员的范畴论&lt;/a&gt;（Category Theory for Programmers）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://category-theory.mitpress.mit.edu/&quot;&gt;写给科学家的范畴论&lt;/a&gt;（Category Theory for the Sciences）, &lt;a href=&quot;https://github.com/mmai/Category-Theory-for-the-Sciences&quot;&gt;下载&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mrpandey.github.io/d3graphTheory/index.html&quot;&gt;图论的 D3 解释&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hjemmesider.diku.dk/~torbenm/Basics/basics_lulu2.pdf&quot;&gt;编译器设计基础&lt;/a&gt;（PDF）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;八其他&quot;&gt;八、其他&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md&quot;&gt;Google 面试自学手册&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://yangshun.github.io/tech-interview-handbook/&quot;&gt;技术面试手册&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/amirrajan/survivingtheappstore&quot;&gt;如何在应用商店成功？&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ed-thelen.org/comp-hist/CBC.html&quot;&gt;计算机之前的计算设备&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://res.wokanxing.info/jpgramma/conditionals.html&quot;&gt;日语语法教程&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://courses.dcs.wisc.edu/wp/readinggerman/print-entire-textbook/&quot;&gt;基础德语教程&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./docs/任正非文集.epub&quot;&gt;任正非文集&lt;/a&gt;：任正非1994年～2018年的几百篇讲话。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bunniefoo.com/bunnie/essential/essential-guide-shenzhen-web.pdf&quot;&gt;老外的深圳电子产品采购指南&lt;/a&gt;（PDF）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nav.al/rich&quot;&gt;How to get rich&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pmarchive.com/&quot;&gt;Marc Andreessen 创业文集&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.metro.tokyo.jp/chinese/guide/bosai/index.html&quot;&gt;东京防灾手册&lt;/a&gt;（中文）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/style/&quot;&gt;谷歌的技术文档写作指南&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.c82.net/euclid/&quot;&gt;《几何原本》在线版&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://serialmentor.com/dataviz/&quot;&gt;数据可视化基础&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
 </description>
-        <pubDate>Sat, 01 Jan 1222 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/1222/01/%E7%AD%94%E9%A2%98%E5%BA%93%E7%9A%84%E5%89%AF%E6%9C%AC3/</link>
-        <guid isPermaLink="true">http://localhost:4000/1222/01/%E7%AD%94%E9%A2%98%E5%BA%93%E7%9A%84%E5%89%AF%E6%9C%AC3/</guid>
+        <pubDate>Sun, 01 Jan 1111 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/1111/01/%E5%85%8D%E8%B4%B9%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B9%A6%E7%B1%8D%E6%B1%87%E6%80%BB/</link>
+        <guid isPermaLink="true">http://localhost:4000/1111/01/%E5%85%8D%E8%B4%B9%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B9%A6%E7%B1%8D%E6%B1%87%E6%80%BB/</guid>
+        
+        <category>计算机</category>
         
         
       </item>
     
       <item>
-        <title>灭火器压力表用（ ）三种颜色表示压力情况</title>
-        <description>&lt;p&gt;灭火器压力表用（ ）三种颜色表示压力情况，当指针指在绿色区域时表示压力正常。
-2020年6月2日 by 网站忠实用户&lt;/p&gt;
+        <title>Java资料合集</title>
+        <description>&lt;p&gt;2020最新资料合集
+勿外传！收到后尽量先保存，最近百度网盘加大了和谐力度。
+资料是持续跟新的，新旧都有，根据自己的技术栈针对性的学习。
+若链接失效，可微信留言给我，更新后第一时间通知。
+如有其他资料的需求，也可以留言给我，若有合适的资源也会添加并分享（仅限技术开发类）。
+特别注意：很多资料收集来源于互联网，可能内嵌了广告内容，勿轻信！&lt;/p&gt;
 
-&lt;p&gt;灭火器压力表用（ ）三种颜色表示压力情况，当指针指在绿色区域时表示压力正常。&lt;/p&gt;
+&lt;p&gt;    Java：（从基础到高级，项目篇（100个项目）放在最后）
+Java零基础入门课程
+链接：https://pan.baidu.com/s/1e1-sj-WRTVjDVJxuWGg9rw 
+提取码：8fk2
+Java基础
+链接：https://pan.baidu.com/s/11gS15xgi9Y9KTh6rntIH3w 
+提取码：uu7o
+Java全套课程
+链接：https://pan.baidu.com/s/1gdUeCc3YTbrtMBUiJTemQg 
+提取码：dmt1
+JavaEE实战
+链接：https://pan.baidu.com/s/1A9E6E9E9O17n9Fxck9TWSQ 
+提取码：vww0
+Java算法与数据结构
+链接：https://pan.baidu.com/s/1FHJr9c39pu_C7dyWDCru4g 
+提取码：0bjt
+Java并发与高并发解决方案
+链接：https://pan.baidu.com/s/18sJOqY0z4t7FatZyZrAYnw 
+提取码：96pu
+Java高性能并发实战-秒杀商城项目
+链接：https://pan.baidu.com/s/1JUg9lwNvlXdboG0SzqTCtQ 
+提取码：eg1b 
+Java深入微服务原理案例讲解-房屋销售平台
+链接：https://pan.baidu.com/s/1CQ0rI6YfXohHDJEjrche5g 
+提取码：uts4 
+Spring团购
+链接：https://pan.baidu.com/s/1y4dAKMpYWfCkLFacWwQd6g 
+提取码：25ti
+Springboot微信点餐系统
+链接：https://pan.baidu.com/s/1lUN9S-Dg0PHg7xCdhBVHXg 
+提取码：ldpg
+Springboot技术栈企业博客前后端
+链接：https://pan.baidu.com/s/1jNwfZD8otLsvTOJ19q7q_A 
+提取码：d18f 
+SSM到springboot开发校园商铺平台
+链接：https://pan.baidu.com/s/14uTGNqxOYPN_Wk7X9TEryA 
+提取码：mnz2 
+Springcloud
+链接：https://pan.baidu.com/s/15QaBfe-hPyIaDGDmUmmdmA 
+提取码：5u3l 
+zoopkeeper分布专题dubob微服务入门
+链接：https://pan.baidu.com/s/1-rB6tJzFOgzeOKcJQEEj1g 
+提取码：0u23 
+Springsecurity开发安全的REST服务
+链接：https://pan.baidu.com/s/1My3uFX6AP-mJI8MbWGCYoQ 
+提取码：6hyy 
+JAVA架构师面试攻略
+链接：https://pan.baidu.com/s/1FjSBV1kd_lwsSbVTwAJ6QA 
+提取码：b1yj
+Java架构类阅读书籍
+链接：https://pan.baidu.com/s/1wYbdyfuJ2AjVGfDX0K-l_A 
+提取码：8ncy
+26天学习架构思路
+链接：https://pan.baidu.com/s/1JYbLLAwlWrjAdzrZJ63WhA 
+提取码：ta41
+24天高级架构项目讲解
+链接：https://pan.baidu.com/s/1DdbOIuGaboqACIrKDcF3JA 
+提取码：zcrh 
+Java项目篇
+Java开发项目合集
+链接：https://pan.baidu.com/s/1JnSsW0q79DK7pHQz0tp5Iw 
+提取码：monh 
+高并发设计
+链接：https://pan.baidu.com/s/1wDO1Z3VXGBpj45m4B9wRAQ 
+提取码：oze8
+大型springMVC、mybatis、redis、solr、nginx购物网站开发
+链接：https://pan.baidu.com/s/1xbpPx271uHbtknshlI8uhQ 
+提取码：1bse 
+OA项目开发合集
+链接：https://pan.baidu.com/s/164K5XBTargz3KZ6vbNdLNA 
+提取码：g6s1
+管理系统项目合集
+链接：https://pan.baidu.com/s/1EUHIkMIbiNVXCg-IgP7seQ 
+提取码：3duu
+商城类项目合集（多分布式）
+链接：https://pan.baidu.com/s/1dBOBnW7UARSK0lSdO7Ujlw 
+提取码：nro2
+java简历模板
+链接：https://pan.baidu.com/s/1qSu–3nsudqCotHsiAYupA 
+提取码：46p6&lt;/p&gt;
 
-&lt;p&gt;A.红&lt;/p&gt;
+&lt;p&gt;    WEB前端（学习时知识点会比较乱，多注重实操）
+前端基础入门
+链接：https://pan.baidu.com/s/1gYWbeyn1QWdaV7SKKAqkPQ 
+提取码：2m4x 
+2019WEB前端全套
+链接：https://pan.baidu.com/s/1Py1GWmv_MJsh1r-h8OojmQ 
+提取码：j0yo 
+前端成长必经之路
+链接：https://pan.baidu.com/s/1bHb-4gh7MgTm5IrN87uwzg 
+提取码：2ius 
+前端架构阶段
+链接：https://pan.baidu.com/s/1C1gFPD5CT1aR7KlTnVYINw 
+提取码：g8l5
+超实用前端资料
+链接：https://pan.baidu.com/s/1ZZGZz3G1msDa0NI3PdVZSQ 
+提取码：iye9
+前后端协作及综合问题
+链接：https://pan.baidu.com/s/1l5w_8N9qctaqeHln7GkWWg 
+提取码：3psv 
+Web自动化测试 Selenium基础到企业应用
+链接：https://pan.baidu.com/s/1Hu-FM_AAued5oEriXTxAsQ 
+提取码：ok3g
+前端开发-6小时jQuery开发小应用
+链接：https://pan.baidu.com/s/1Q2044MOIBgv9v5h2YsgWUg 
+提取码：aj4p
+让你的页面飞起来-web前端性能优化
+链接：https://pan.baidu.com/s/1ztFhPQ-y5DE4P7wj0dGITA 
+提取码：tu8n 
+React.js开发移动端新闻平台（react入门级项目）
+链接：https://pan.baidu.com/s/1zHlktKo2RxJxE4MA2EgbWw 
+提取码：k8pi 
+React native贯穿全栈开发
+链接：https://pan.baidu.com/s/1CcuL7r5kDMCY-6W-KXvDJw 
+提取码：e7qi 
+Node.js全套
+链接：https://pan.baidu.com/s/1mRi7VUDgcWh15IpdukmUpQ 
+提取码：p0uv 
+带你搞定node.js开发微信公众号
+链接：https://pan.baidu.com/s/1l4WDmNA_Bx9kd8ITkrMf0w 
+提取码：6qeh 
+前端配套软件工具
+链接：https://pan.baidu.com/s/1_VnrFhkk9aZvYQ5UdAnGuw 
+提取码：d93x 
+Angular打造企业级协作平台
+链接：https://pan.baidu.com/s/1jpWLG-4eVlU-9zejkleIpQ 
+提取码：0q17 
+Angular仿拉勾网
+链接：https://pan.baidu.com/s/1UBXVBNj0MavExQRlN8OuoQ 
+提取码：k3r4 
+全面解析css工作应用
+链接：https://pan.baidu.com/s/1uWCelvTw2bvgy1nPi2FWpQ 
+提取码：onmk 
+手把手从0打造电商平台-前端
+链接：https://pan.baidu.com/s/1VVh0nQ_AqdLpHVXkVvZ61w 
+提取码：lyn5
+前端面试跳槽面试秘籍
+链接：https://pan.baidu.com/s/1OMM24h9DjAHcHLJXuTvwWQ 
+提取码：pw5b 
+腾讯大牛整理的web前后端漏洞分析防御
+链接：https://pan.baidu.com/s/1y6lZVC3tTNwryQIOWZvTTQ 
+提取码：914f 
+前后端协作综合问题
+链接：https://pan.baidu.com/s/1RdflUgBbCA1SbaFd5xFAmw 
+提取码：z4lp&lt;/p&gt;
 
-&lt;p&gt;B.黄&lt;/p&gt;
+&lt;p&gt;本公司主要注重WEB前端和Java全栈的培训，以下资料均来源于学生需求。&lt;/p&gt;
 
-&lt;p&gt;C.绿&lt;/p&gt;
+&lt;p&gt;    安卓：
+零基础安卓入门
+链接：https://pan.baidu.com/s/1rlR4mua-pzWtQa4N_oYaCw 
+提取码：f1b8 
+安卓开发之服务器web教程
+链接：https://pan.baidu.com/s/1erUVRlq2ODyrYzde9DLzMQ 
+提取码：9r09
+安卓开发之多线程开发
+链接：https://pan.baidu.com/s/1dV1qf0EeWVSV9ckCENRyNA 
+提取码：ypr6
+安卓开发之http协议编程
+链接：https://pan.baidu.com/s/1vCpG0lr2urVtFnxpykF3Fg 
+提取码：wfx4
+安卓开发之lodermanager异步加载数据库
+链接：https://pan.baidu.com/s/1KE3KSa_rwJr_5u8OWs4Xtg 
+提取码：rgbl
+安卓开发之百度APP实战开发
+链接：https://pan.baidu.com/s/1CryHtL6tbhzUZmWaBWd-Uw 
+提取码：wbpi
+安卓直播APP开发
+链接：https://pan.baidu.com/s/1UIBe01Gn7CinO0Q5dwGjVg 
+提取码：ddqk
+安卓架构
+链接：https://pan.baidu.com/s/1z09QqoyBkVAYlK3A-lH6Pw 
+提取码：v89g 
+Swoole
+链接：https://pan.baidu.com/s/163JyPEyTO88niGkqG1J1Qw 
+提取码：dazk 
+Swoole从基础到到高级打造直播平台
+链接：https://pan.baidu.com/s/1KaPxPxMjF2Rj0aILaAes4w 
+提取码：d5lu 
+Swift
+链接：https://pan.baidu.com/s/1OtZUE-1pHIApHCXVziGO1Q 
+提取码：hcbz 
+SVN
+链接：https://pan.baidu.com/s/1y4Yoh4rfDY998i-qehOPkA 
+提取码：amwj 
+Spark
+链接：https://pan.baidu.com/s/17rz4jy4fZJbQ6fx02Hhk4Q 
+提取码：69l5 
+Spark stream实时流处理项目实战
+链接：https://pan.baidu.com/s/1Dwz5llUnJH25RUX4ARntfA 
+提取码：m2lr 
+SEO入门教程
+链接：https://pan.baidu.com/s/1_4bhp0m2QQ6qptrlMaImig 
+提取码：7rdb 
+Scala
+链接：https://pan.baidu.com/s/1MHz4UCMKbttLrOOIH09byQ 
+提取码：piwz&lt;/p&gt;
 
-&lt;p&gt;D.橙&lt;/p&gt;
+&lt;p&gt;    Python：
+新Python机器学习
+链接：https://pan.baidu.com/s/1-cdpyqErLYl-a34l2HXZxQ 
+提取码：xerf 
+Python3入门与进阶
+链接：https://pan.baidu.com/s/10Qq2q4u9heSun1xzchnYLg 
+提取码：hsa4 
+Python全栈工程师完整视频
+链接：https://pan.baidu.com/s/1IAmAwVWkRJFaNnQXAS3mIA 
+提取码：chz0 
+Python基础
+链接：https://pan.baidu.com/s/16RWKYwve2r7teI3y_FPYpQ 
+提取码：r8vb 
+Python进阶
+链接：https://pan.baidu.com/s/1Hb2SMKkhF6W7Kkg60ZrFSg 
+提取码：27va&lt;/p&gt;
 
-&lt;p&gt;正确答案：ABC&lt;/p&gt;
+&lt;p&gt;    算法与数据结构：
+算法与数据结构（完整的算法与数据结构学习）
+链接：https://pan.baidu.com/s/1alczULHL4-VwlPBOz80K0w 
+提取码：nghy
+玩转算法
+链接：https://pan.baidu.com/s/1qYlN_dpgjGy_Ei1vrpD63g 
+提取码：spcn 
+7款算法经典游戏开发
+链接：https://pan.baidu.com/s/10sH2ejvYHRe6nMS5pZ_G6w 
+提取码：2iw2
+传智数据结构：
+链接：https://pan.baidu.com/s/19DJ24UkIGqNlshZ29zanJA 
+提取码：z6w8&lt;/p&gt;
+
+&lt;p&gt;    PHP：
+PHP从基础到原生开发
+链接：https://pan.baidu.com/s/1Yu40uOPv0zHWAirI9owsJw 
+提取码：xoy4 
+PHP开发高可用高安全App后端
+链接：https://pan.baidu.com/s/18TH4nc8ltcAv0TkIE5QfvQ 
+提取码：gurt
+PHP源码
+链接：https://pan.baidu.com/s/1jNgdj4XnwKkByYT_3v8c3Q 
+提取码：93ws
+laravel教程汇总
+链接：https://pan.baidu.com/s/1NGR_S8Eg8kLqop7f3jHvlQ 
+提取码：5w3q
+PHP各类手册
+链接：https://pan.baidu.com/s/1MNu7aAVeC8l6mhVTYwNRDw 
+提取码：kc5k
+前端到后台ThinkPHP开发
+链接：https://pan.baidu.com/s/1oHZOZEDIpwilEA9aFhplTQ 
+提取码：ezpj&lt;/p&gt;
+
+&lt;p&gt;    微信小程序：
+链接：https://pan.baidu.com/s/1O24seE6LdCDOlKqmsus-rQ 
+提取码：pw7m&lt;/p&gt;
+
+&lt;p&gt;    R语言：
+相关软件：
+链接：https://pan.baidu.com/s/1LaFKoQ0peRnoteUPla27Lg 
+提取码：o77g 
+R语言基础到实战：
+链接：https://pan.baidu.com/s/15WHEN1SVaLabovvevjgWzA 
+提取码：9cuu 
+R语言相关素材：
+链接：https://pan.baidu.com/s/1gEJYL7GDclB9EVAyVfOhUw 
+提取码：oaa2&lt;/p&gt;
+
+&lt;p&gt;    C#-.NET：
+入门到实战：
+链接：https://pan.baidu.com/s/1BasOcMM9K_cm8E1oiOWllQ 
+提取码：r013 
+Net Core微服务：
+链接：https://pan.baidu.com/s/1vcY8aEpKErFQ8lSdd4Fpyg 
+提取码：pv2w 
+ASP.NET Core跨平台开发从入门到实战PDF
+链接：https://pan.baidu.com/s/1co-HNn2Gc9G8Dr3VUQaA8Q 
+提取码：jah4&lt;/p&gt;
+
+&lt;p&gt;    C/C++:
+C&amp;amp;C++完整视频
+链接：https://pan.baidu.com/s/1ULEuuClwECq6fcLlqaEefg 
+提取码：49ti&lt;/p&gt;
+
+&lt;p&gt;    Colang：
+链接：https://pan.baidu.com/s/10WttpseQshsUxmMmHdV8Xw 
+提取码：ierr&lt;/p&gt;
+
+&lt;p&gt;    UI设计：
+链接：https://pan.baidu.com/s/1ZoSPnkgeezhiQwMkhPBz6A 
+提取码：9ptn&lt;/p&gt;
+
+&lt;p&gt;    MySQL：
+链接：https://pan.baidu.com/s/1ZdNr2EbYV6__90K0Itlmzw 
+提取码：5dbi&lt;/p&gt;
+
+&lt;p&gt;    软件测试：
+链接：https://pan.baidu.com/s/18FUX8Hv4ZCHOCtWA82nulA 
+提取码：iz3g&lt;/p&gt;
+
+&lt;p&gt;    大数据入门：
+链接：https://pan.baidu.com/s/18iMwmt8BMMj6KuCtfXb_sg 
+提取码：p36l&lt;/p&gt;
 </description>
-        <pubDate>Sat, 01 Jan 1222 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/1222/01/%E7%81%AD%E7%81%AB%E5%99%A8%E5%8E%8B%E5%8A%9B%E8%A1%A8%E7%94%A8-%E4%B8%89%E7%A7%8D%E9%A2%9C%E8%89%B2%E8%A1%A8%E7%A4%BA%E5%8E%8B%E5%8A%9B%E6%83%85%E5%86%B5/</link>
-        <guid isPermaLink="true">http://localhost:4000/1222/01/%E7%81%AD%E7%81%AB%E5%99%A8%E5%8E%8B%E5%8A%9B%E8%A1%A8%E7%94%A8-%E4%B8%89%E7%A7%8D%E9%A2%9C%E8%89%B2%E8%A1%A8%E7%A4%BA%E5%8E%8B%E5%8A%9B%E6%83%85%E5%86%B5/</guid>
+        <pubDate>Sun, 01 Jan 1111 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/1111/01/java/</link>
+        <guid isPermaLink="true">http://localhost:4000/1111/01/java/</guid>
         
         
       </item>
     
       <item>
-        <title>易燃液体（ ）都有发生燃烧的危险</title>
-        <description>&lt;p&gt;易燃液体（ ）都有发生燃烧的危险。&lt;/p&gt;
+        <title>iOS13.3怎么用捷径看电池寿命?</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  首先确保设置内的隐私，分析，共享数据打开，如果没有，先打开开关，等待24小时后再进行查询
 
-&lt;p&gt;A.
-遇火
-B.
-和氧化剂接触时
-C.
-受热
-D.
-震动
-很遗憾，答题错误！
-题目报错
-正确答案：A,B,C,D
-您&lt;/p&gt;
-</description>
-        <pubDate>Sat, 01 Jan 1222 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/1222/01/%E6%98%93%E7%87%83%E6%B6%B2%E4%BD%93-%E9%83%BD%E6%9C%89%E5%8F%91%E7%94%9F%E7%87%83%E7%83%A7%E7%9A%84%E5%8D%B1%E9%99%A9/</link>
-        <guid isPermaLink="true">http://localhost:4000/1222/01/%E6%98%93%E7%87%83%E6%B6%B2%E4%BD%93-%E9%83%BD%E6%9C%89%E5%8F%91%E7%94%9F%E7%87%83%E7%83%A7%E7%9A%84%E5%8D%B1%E9%99%A9/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>当在户外遭遇雷电天气时</title>
-        <description>&lt;p&gt;当在户外遭遇雷电天气时，下列做法不正确的是（ac ）。&lt;/p&gt;
+接着点选分析数据，一直往下拉找到log-aggregated这个文件，选择日期最新的一个文件
 
-&lt;p&gt;A.
-快向高处跑
-B.
-远离电线杆、烟囱
-C.
-躲到大树下暂避
-D.
-应尽量离开山丘、海滨、河边等地方&lt;/p&gt;
+ 分享到微信
+
+ 选择打开方式 --其他--捷径
+
+ 关注 扫下面二维码或者搜索“FX公众号”
+
+回复 “电池” 两个字 获取iOS13 电池捷径 选择信任捷径
+
+
+  iOS 13 默认是不允许安装外部快捷指令的，无法安装外部快捷指令这 App 基本上没法玩啊，所以必须要关掉这个限制。
+
+操作步骤：手机 - 设置 - 允许不受信任的快捷指令 - 允许 - 输入手机密码 - 确认
+
+如果你看不到“允许不受信任的快捷指令”选项，可能因为你还没有使用过任何快捷指令，你可以随意创建一个快捷指令。
+
+操作步骤：打开捷径app - 新建快捷指令 - 随便丢一个操作进去 - 点击三角形
+
+再回到快捷指令设置，你就能看“允许不受信任的快捷指令”选项了。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic2.zhimg.com/80/v2-a0713a41fa22ff56d0d211cafbd20d34_1440w.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/media/fx.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;点击阅读原文&quot;&gt;&lt;a href=&quot;https://www.zhihu.com/question/360524660/answer/971373452?utm_source=weibo&amp;amp;utm_medium=social&amp;amp;utm_oi=909768144527200256&quot;&gt;&amp;gt;点击阅读原文&amp;lt;&lt;/a&gt;&lt;/h1&gt;
 </description>
-        <pubDate>Sat, 01 Jan 1222 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/1222/01/%E5%BD%93%E5%9C%A8%E6%88%B7%E5%A4%96%E9%81%AD%E9%81%87%E9%9B%B7%E7%94%B5%E5%A4%A9%E6%B0%94%E6%97%B6/</link>
-        <guid isPermaLink="true">http://localhost:4000/1222/01/%E5%BD%93%E5%9C%A8%E6%88%B7%E5%A4%96%E9%81%AD%E9%81%87%E9%9B%B7%E7%94%B5%E5%A4%A9%E6%B0%94%E6%97%B6/</guid>
+        <pubDate>Sun, 01 Jan 1111 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/1111/01/iOS13.3%E6%80%8E%E4%B9%88%E7%94%A8%E6%8D%B7%E5%BE%84%E7%9C%8B%E7%94%B5%E6%B1%A0%E5%AF%BF%E5%91%BD/</link>
+        <guid isPermaLink="true">http://localhost:4000/1111/01/iOS13.3%E6%80%8E%E4%B9%88%E7%94%A8%E6%8D%B7%E5%BE%84%E7%9C%8B%E7%94%B5%E6%B1%A0%E5%AF%BF%E5%91%BD/</guid>
+        
+        <category>ios</category>
         
         
       </item>
